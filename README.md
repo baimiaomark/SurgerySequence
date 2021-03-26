@@ -43,7 +43,6 @@ Instance Files
 ########
 
 Data structure (by rows)
-
 1.OR blocking cost ($/hour)
 2.Number of ORs
 3.Number of PACU beds
