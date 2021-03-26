@@ -43,12 +43,17 @@ Instance Files
 ########
 
 Data structure (by rows)
-1.OR blocking cost ($/hour)
-2.Number of ORs
-3.Number of PACU beds
-4.Index of OR in the original OR pool (See Online Supplement EC.8 for the OR pool)
-5.Numer of scheduled surgeries in each OR 
-6.Row 6-end: 
+Row 1.OR blocking cost ($/hour)
+
+Row 2.Number of ORs
+
+Row 3.Number of PACU beds
+
+Row 4.Index of OR in the original OR pool (See Online Supplement EC.8 for the OR pool)
+
+Row 5.Numer of scheduled surgeries in each OR 
+
+Row 6-end: 
 Each row includes distribution information of surgery duration and LOS in the PACU for a patient. Patients are listed in the sequence of their positions in ORs and their OR indices. That is, it follows the sequence of 1st patient in OR #1, 2nd patient in OR #1, ...., last patient in OR #1, first patient in OR #2, ....
 
 Each row includes the following information in sequence: mean, standard deviation, lower bound and upper bound of surgery duration distribution (trancated lognormal distributions); followed by  mean, standard deviation, lower bound and upper bound of PACU LOS distribution (trancated lognormal distributions). 
