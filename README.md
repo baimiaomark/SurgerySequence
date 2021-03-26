@@ -9,7 +9,9 @@ Please contact author Miao Bai for any question
 ###########
 Solution files: Solution1
 #######
+
 Includes performance of our proposed algorithm compared with MV, MV+SAA-GDR, NOPACU, NOPCU+SAA-GDR in terms of objective value and solution time in 25 test instances (Please refer to Table 3 in the manuscript for detail.
+
 Columns:
 1. Instance #,	
 2. avg solution time of SH+SAA-GDR
@@ -27,6 +29,7 @@ Columns:
 ###########
 Solution files: Solution2
 #######
+
 Includes performance of Heuristics in terms of objective value and solution time in 25 test instances (Please refer to Table 3 in the manuscript for detail). Each row cooresponds the performance of a heuristc in a specific instance
 Columns
 1. sequencing heuristic indicator: Random 0, SCF 1, LCF 2, HIHD 3, HDHI 4, MIX 5, Johnson 6, AlterJohnson 7, SVF 8,
